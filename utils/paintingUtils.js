@@ -36,7 +36,7 @@ const applyFilters = (paintings, filters) => {
     return filtered;
 };
 
-// Применение пагинации
+
 const applyPagination = (paintings, page, limit) => {
     const pageNum = parseInt(page);
     const limitNum = parseInt(limit);
@@ -44,7 +44,7 @@ const applyPagination = (paintings, page, limit) => {
     const endIndex = startIndex + limitNum;
   
     return {
-        data: paintings.slice(startIndex, endIndex), // Выборка данных для текущей страницы
+        data: paintings.slice(startIndex, endIndex), 
         pagination: {
             currentPage: pageNum,
             totalPages: Math.ceil(paintings.length / limitNum),
