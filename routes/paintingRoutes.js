@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// Импортируем методы контроллера
+
 const {
     getPaintings,
     getPaintingById,
