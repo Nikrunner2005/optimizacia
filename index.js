@@ -3,7 +3,7 @@ const cors = require('cors');
 const logger = require('./middleware/logger'); 
 const errorHandler = require('./middleware/erroeHandler');
 const notFoundHandler = require('./middleware/notFoundHandler');
-
+//test
 const paintingRoutes = require('./routes/paintingRoutes');
 const countRoutes = require ('./routes/countRoutes');
 
